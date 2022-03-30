@@ -12,7 +12,7 @@ class User extends Model {
 }
 
 // table columns & configuration
-User.unit(
+User.init(
     {
         // id column
         id: {
@@ -48,4 +48,4 @@ User.unit(
     }   
 );
 
-model.exports = User
+module.exports = User;
